@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0f0c",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "dev.xgas.dollars",
+      "versionCode": 1
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "metadataOnly": {
+        "engine": "xgas-mcp intents: quote_enter, prepare_enter, ramp_quote, quote_exit, get_exit_status, list_orders, quote_trade, list_ngu_tokens, quote_ngu_buy",
+        "settlement": "Dollars are backed by a dollar reserve vault; yield is quoted and paid in dollars. Network details appear only in receipts and metadata."
+      },
+      "eas": {
+        "projectId": "b7a4bb68-b3c5-4b52-ad1c-09d8de48cca2"
+      }
+    },
+    "icon": "./assets/icon.png",
+    "ios": {
+      "buildNumber": "1",
+      "bundleIdentifier": "dev.xgas.dollars",
+      "infoPlist": {
+        "mcpPackage": "xgas-mcp",
+        "settlementNetwork": "xGas Orbit L4 (466302) via Robinhood Chain (4663); USDG-backed dollar vault",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "supportsTablet": false
+    },
+    "name": "xgas.dollars",
+    "orientation": "portrait",
+    "plugins": [],
+    "slug": "xgas-dollars",
+    "splash": {
+      "backgroundColor": "#0b0f0c",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "userInterfaceStyle": "dark",
+    "version": "1.0.0"
+  }
+}
